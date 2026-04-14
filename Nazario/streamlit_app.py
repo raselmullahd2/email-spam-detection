@@ -5,8 +5,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Spam Detection", layout="centered")
 
-model = joblib.load("best_nb_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+model = joblib.load("Nazario/best_nb_model.pkl")
+vectorizer = joblib.load("Nazario/tfidf_vectorizer.pkl")
 
 
 def clean_text(text):
